@@ -1,9 +1,11 @@
 import React, { Fragment, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Showip.css"; 
 
 export const Listrain = () => {
   const [trains, setTrains] = useState([]);
   const [selectedTrain, setSelectedTrain] = useState(null);
+  const navigate = useNavigate();
 
   const getTrains = async () => {
     try {
@@ -33,8 +35,7 @@ export const Listrain = () => {
   };
 
   const handleTrainClick = (train) => {
-    console.log(train)
-    setSelectedTrain(train);
+    navigate(`/train/${train.trainNumber}`);
   };
 
   useEffect(() => {
