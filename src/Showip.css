@@ -1,0 +1,59 @@
+.ip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .ip-table th,
+  .ip-table td {
+    padding: 0.75rem;
+    text-align: center;
+    color: black;
+  }
+  
+  .ip-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .ip-table tbody tr:nth-child(even) {
+    background-color: #beb7b7;
+    color: black;
+  }
+  .ip-table tbody tr:nth-child(odd) {
+    background-color: #a89ea6;
+    color: black;
+  }
+  
+  .ip-table tbody tr:hover {
+    background-color: #ebebeb;
+  }
+  .ip-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .ip-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+  }
+    .link-btnip {
+    display: flex;
+    border: none;
+    background-color: rgb(27, 8, 103);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f4f2f8;
+    
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  
