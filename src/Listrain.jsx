@@ -11,7 +11,7 @@ export const Listrain = () => {
     try {
       const response = await fetch("http://20.244.56.144/train/trains", {
         headers: {
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTI0MjkxMjksImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJhbCIsImNsaWVudElEIjoiZDllOWY2NWYtMzhjYi00NDdhLWJjMzQtYmRkODA4NWQ1Y2U2Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IkNILkVOLlU0Q1NFMjAwNzcifQ.PDpNwsCsyeN47hEZCbOubrWgKf8pyvIjQrDagyA_zL0'
+          Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTI0MzA1ODgsImNvbXBhbnlOYW1lIjoiVHJhaW4gQ2VudHJhbCIsImNsaWVudElEIjoiZDllOWY2NWYtMzhjYi00NDdhLWJjMzQtYmRkODA4NWQ1Y2U2Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IkNILkVOLlU0Q1NFMjAwNzcifQ.R_nGX2PA7lWrahibzGO0fQWr3qc7hj-IXTEfXGlW9o8'
         }
       });
 

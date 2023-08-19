@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-const TrainDetails = ({ trains }) => {
+export const TrainDetails = ({ trains }) => {
   const { trainNumber } = useParams();
-  const selectedTrain = trains.find((train) => train.trainNumber === trainNumber);
+  const selectedTrain = trains.find((trains) => trains.trainNumber === trainNumber);
 
   if (!selectedTrain) {
     return <div>Train not found</div>;
